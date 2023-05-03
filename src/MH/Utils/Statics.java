@@ -11,5 +11,7 @@ import MH.entities.User;
  * @author Administrator
  */
 public class Statics {
-    static public User user= new User(39, "Mouhib9");
+    static public User user= new User();
+    //Change this
+    public static final String PUBLIC_PATH="C:\\Users\\Administrator\\Desktop\\desimg\\";
 }

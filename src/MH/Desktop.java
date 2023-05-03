@@ -44,8 +44,11 @@ public class Desktop extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();*/
         try{
-            FXMLLoader loader= new FXMLLoader(getClass().getResource("/MH/gui/ajout_user.fxml"));
+            FXMLLoader loader= new FXMLLoader(getClass().getResource("/MH/gui/login.fxml"));
             //FXMLLoader loader= new FXMLLoader(getClass().getResource("/MH/gui/ajout_team.fxml"));
+            //FXMLLoader loader= new FXMLLoader(getClass().getResource("/MH/gui/table_user.fxml"));
+            //FXMLLoader loader= new FXMLLoader(getClass().getResource("/MH/gui/table_team.fxml"));
+            
             Parent root= loader.load();
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);

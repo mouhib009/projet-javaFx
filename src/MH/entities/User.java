@@ -115,16 +115,14 @@ public class User {
     public User() {
     }
 
-    public User(int id, String nickname) {
+    public User(int id, String name) {
         this.id= id;
-        this.name= nickname;
+        this.name= name;
     }
 
-    
     @Override
     public String toString() {
         return "User{" + "email=" + email + ", roles=" + roles + ", passwrod=" + password + ", name=" + name + ", last_name=" + last_name + ", image=" + image + ", region=" + region + ", nickname=" + nickname + '}';
     }
-   
 }
 

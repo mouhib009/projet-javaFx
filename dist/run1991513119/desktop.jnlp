@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="desktop.jnlp">
+  <information>
+    <title>desktop</title>
+    <vendor>Administrator</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="desktop.jar" size="20555" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\jbcrypt-1.0.2.jar" size="17089" download="eager" />
+    <jar href="lib\jfoenix-8.0.1.jar" size="2405715" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.30.jar" size="2513563" download="eager" />
+    <jar href="lib\protobuf-java-3.19.4.jar" size="1681869" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="MH.Desktop"  name="desktop" />
+  <update check="always"/>
+</jnlp>
